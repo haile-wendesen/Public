@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+body{
+    width: 100%;
+    height: 90vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    background-color: rgb(219, 219, 219);
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    background-image:repeating-linear-gradient(rgb(36, 148, 168),rgb(65, 63, 63));
+    .upper{
+        display: flex;
+        justify-content: space-around;
+        .logo, .other{
+            padding: 1rem;
+            margin: 0.5rem;
+        }
+    }
+    .lower{
+        margin-top: 1.3rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: inherit;
+        background-color: rgb(89, 135, 196);
+        ul{
+            display: flex;
+            a{
+                margin-left: 2rem;
+                color: black;
+            }
+        }
+    }
+}
+
+main{
+    .slide{
+        margin-top: 1rem;
+        width: 100%;
+        height: 450px;
+        background-color: rgb(253, 252, 252);
+        .carousel{
+            margin-left: 19rem;
+            width: 70%;
+            height: 100%;
+            background-color: rgb(84, 86, 223);
+            .nav{
+                display: none;
+            }
+        
+         .content{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(80, 77, 77);
+            .detail{
+                margin: 1rem;
+                padding: 0.5rem;
+            }
+            .img{
+                position: relative;
+                width: 100%;
+                height: 10px;  
+                justify-content: center;
+            }
+            }
+        }
+    }
+}
+
+

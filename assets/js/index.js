@@ -1,0 +1,18 @@
+$('.carousel').Carousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:4000,
+    responsive:{
+        0:{
+            content:1
+        },
+        600:{
+            content:1
+        },
+        1000:{
+            content:1
+        }
+    }
+})
